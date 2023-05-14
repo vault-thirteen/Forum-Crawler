@@ -1,0 +1,8 @@
+1. Regular Expression for extracting all links:
+	<a href="\.\/viewforum\.php\?f=.*<\/a>
+
+2. Regular Expression for extracting forum IDs and names:
+	<a href="\.\/viewforum\.php\?f=(\d+)">(.+)<\/a>
+
+3. Online RegExp Tool:
+	https://regex101.com

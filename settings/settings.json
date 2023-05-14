@@ -1,0 +1,19 @@
+{
+    "database": {
+        "driver": "mysql",
+        "host": "192.168.0.1",
+        "port": 3306,
+        "db": "db",
+        "user": "user",
+        "password": "password"
+    },
+    "temporaryFolder": "D:\\Temp",
+    "forumsFile": "data\\Forums.csv",
+    "pageEncoding": "cp1251",
+    "forumTopicsPageDelaySec": 1.0,
+    "topicsPerPage": 50,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0",
+    "cookie": "...",
+    "forumUrlFormat": "https://example.org/forum/viewforum.php?f=%v&start=%v",
+    "archivedTopicsForumId": 1001
+}
