@@ -16,7 +16,7 @@ import (
 	"github.com/vault-thirteen/Forum-Crawler/src/models"
 	"github.com/vault-thirteen/Forum-Crawler/src/pkg/CLIArguments"
 	"github.com/vault-thirteen/Forum-Crawler/src/pkg/db"
-	htmldom "github.com/vault-thirteen/HTML-DOM"
+	htmldom "github.com/vault-thirteen/auxie/HTML-DOM"
 	ae "github.com/vault-thirteen/auxie/errors"
 	"github.com/vault-thirteen/auxie/number"
 	"golang.org/x/net/html"
