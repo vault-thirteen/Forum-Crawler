@@ -3,13 +3,10 @@ github.com/go-sql-driver/mysql v1.7.1/go.mod h1:OXbVy3sEdcQ2Doequ6Z5BW6fXNQTmx+9
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
 github.com/kr/text v0.2.0 h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=
 github.com/rogpeppe/go-internal v1.11.0 h1:cWPaGQEPrBb5/AsnsZesgZZ9yb1OQ+GOISoDNXVBh4M=
-github.com/vault-thirteen/HTML-DOM v0.6.3 h1:75ttu9cdEiDdk+I8nvzDQ9dd61dL6UvgNnyFbvIC14c=
-github.com/vault-thirteen/HTML-DOM v0.6.3/go.mod h1:SWFNKSdFVrHKA5TMno5y2sq7LcD45et1I6B/kTRFdh8=
-github.com/vault-thirteen/auxie v0.15.2 h1:BElKHMiCJ+jOBwbmq6/OryOg91FyFjFhyAayhs2ZNDo=
-github.com/vault-thirteen/auxie v0.15.2/go.mod h1:svYzCFdNE9W2xf5uuT9SqX4iFDqN+NjdLlvsBLpDV8Q=
-github.com/vault-thirteen/errorz v1.2.0 h1:i2w9yHqYrsqOWyVPVMeEfv1TIATULW8PxnRGhySeyZ8=
-github.com/vault-thirteen/errorz v1.2.0/go.mod h1:+1mqgPir0fmbjS/MmElLOouoNycetmwtYdmmbjQI9PI=
-github.com/vault-thirteen/tester v1.2.0 h1:eUfPZqS5bXbQ+6Zed9EceN3ddsOBBMZoU0y+/eJV8cc=
+github.com/vault-thirteen/HTML-DOM v0.7.0 h1:g9uNgOv+Jvry7EMuWn/SDGW7jvDCCN/2893jzUmqyE8=
+github.com/vault-thirteen/HTML-DOM v0.7.0/go.mod h1:10XCRhkHQxw0+p/ZFnkAm/NEkKV3olkm1cM7ZC8OaMo=
+github.com/vault-thirteen/auxie v0.18.1 h1:fEXXFl5nbmCE7r1RuxfcRaj8ecFZcTSmIheP1D4/3AE=
+github.com/vault-thirteen/auxie v0.18.1/go.mod h1:Lux+qciKoin+mNgTLVvsczeJ1KcLqfM9PGPqBeAZbDY=
 go.uber.org/multierr v1.11.0 h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=
 golang.org/x/net v0.19.0 h1:zTwKpTd2XuCqf8huc7Fo2iSy+4RHPd10s4KzeTnVr1c=
 golang.org/x/net v0.19.0/go.mod h1:CfAk/cbD4CthTvqiEl8NpboMuiuOYsAr/7NOjZJtv1U=

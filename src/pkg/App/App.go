@@ -17,8 +17,8 @@ import (
 	"github.com/vault-thirteen/Forum-Crawler/src/pkg/CLIArguments"
 	"github.com/vault-thirteen/Forum-Crawler/src/pkg/db"
 	htmldom "github.com/vault-thirteen/HTML-DOM"
+	ae "github.com/vault-thirteen/auxie/errors"
 	"github.com/vault-thirteen/auxie/number"
-	"github.com/vault-thirteen/errorz"
 	"golang.org/x/net/html"
 	"golang.org/x/text/encoding/charmap"
 )
@@ -169,7 +169,7 @@ func (a *App) getForums(forumsFile string) (forums []*models.Forum, err error) {
 	defer func() {
 		derr := f.Close()
 		if derr != nil {
-			err = errorz.Combine(err, derr)
+			err = ae.Combine(err, derr)
 		}
 	}()
 
@@ -501,7 +501,7 @@ func (a *App) getForumPage(forumId uint, startItemIdx uint) (pageContents []byte
 	defer func() {
 		derr := resp.Body.Close()
 		if derr != nil {
-			err = errorz.Combine(err, derr)
+			err = ae.Combine(err, derr)
 		}
 	}()
 

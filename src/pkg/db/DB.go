@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/vault-thirteen/Forum-Crawler/src/models"
-	"github.com/vault-thirteen/errorz"
+	ae "github.com/vault-thirteen/auxie/errors"
 )
 
 type DB struct {
@@ -139,7 +139,7 @@ func (db *DB) SaveForum(forum *models.Forum) (err error) {
 		if err != nil {
 			derr := tx.Rollback()
 			if derr != nil {
-				err = errorz.Combine(err, derr)
+				err = ae.Combine(err, derr)
 			}
 		}
 	}()
@@ -148,7 +148,7 @@ func (db *DB) SaveForum(forum *models.Forum) (err error) {
 	defer func() {
 		derr := st.Close()
 		if derr != nil {
-			err = errorz.Combine(err, derr)
+			err = ae.Combine(err, derr)
 		}
 	}()
 
@@ -176,7 +176,7 @@ func (db *DB) SaveTopic(topic *models.Topic) (err error) {
 		if err != nil {
 			derr := tx.Rollback()
 			if derr != nil {
-				err = errorz.Combine(err, derr)
+				err = ae.Combine(err, derr)
 			}
 		}
 	}()
@@ -185,7 +185,7 @@ func (db *DB) SaveTopic(topic *models.Topic) (err error) {
 	defer func() {
 		derr := st.Close()
 		if derr != nil {
-			err = errorz.Combine(err, derr)
+			err = ae.Combine(err, derr)
 		}
 	}()
 
@@ -213,7 +213,7 @@ func (db *DB) SaveNewTopic(topic *models.Topic, isArchived bool) (err error) {
 		if err != nil {
 			derr := tx.Rollback()
 			if derr != nil {
-				err = errorz.Combine(err, derr)
+				err = ae.Combine(err, derr)
 			}
 		}
 	}()
@@ -227,7 +227,7 @@ func (db *DB) SaveNewTopic(topic *models.Topic, isArchived bool) (err error) {
 	defer func() {
 		derr := st.Close()
 		if derr != nil {
-			err = errorz.Combine(err, derr)
+			err = ae.Combine(err, derr)
 		}
 	}()
 
@@ -276,7 +276,7 @@ func (db *DB) SaveTopics(forumId uint, topics map[uint]*models.Topic) (err error
 		if err != nil {
 			derr := tx.Rollback()
 			if derr != nil {
-				err = errorz.Combine(err, derr)
+				err = ae.Combine(err, derr)
 			}
 		}
 	}()
