@@ -4,7 +4,7 @@ go 1.24.9
 
 require (
 	github.com/go-sql-driver/mysql v1.9.3
-	github.com/vault-thirteen/auxie v0.29.0
+	github.com/vault-thirteen/auxie v0.30.0
 	golang.org/x/net v0.46.0
 	golang.org/x/text v0.30.0
 )
