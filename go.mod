@@ -4,7 +4,7 @@ go 1.25.10
 
 require (
 	github.com/go-sql-driver/mysql v1.10.0
-	github.com/vault-thirteen/auxie v0.36.4
+	github.com/vault-thirteen/auxie v0.36.5
 	golang.org/x/net v0.54.0
 	golang.org/x/text v0.37.0
 )
