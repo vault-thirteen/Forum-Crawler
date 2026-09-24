@@ -4,7 +4,7 @@ go 1.26.8
 
 require (
 	github.com/go-sql-driver/mysql v1.10.1
-	github.com/vault-thirteen/auxie v0.36.9
+	github.com/vault-thirteen/auxie v0.37.0
 	golang.org/x/net v0.59.0
 	golang.org/x/text v0.42.0
 )
